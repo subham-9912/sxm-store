@@ -1,0 +1,5 @@
+Flask
+Authlib
+requests
+Flask-SQLAlchemy
+gunicorn
