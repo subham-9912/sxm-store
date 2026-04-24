@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard | SUBHAM X MOD</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #121212; color: white; text-align: center; }
+        .card { background: #1e1e1e; padding: 20px; border-radius: 15px; width: 300px; margin: 50px auto; }
+        img { border-radius: 50%; width: 100px; }
+        .btn-download { display: inline-block; padding: 10px 20px; background: #7289da; color: white; text-decoration: none; border-radius: 5px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="{{ user.avatar }}" alt="Avatar">
+        <h2>Welcome, {{ user.name }}!</h2>
+        <p>Your ID: {{ user.id }}</p>
+        <hr>
+        <h3>Your Tools</h3>
+        <p>Free Fire Auto Level Bot</p>
+        <a href="#" class="btn-download">Download Tool</a>
+        <br><br>
+        <a href="/logout" style="color: red;">Logout</a>
+    </div>
+</body>
+</html>
